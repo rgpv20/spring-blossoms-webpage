@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: aliceblue;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+     /* background:#eca98d; */
+     background:#F6AD8B;
+     position: relative;
+     flex-direction: column;
+}
+#video{
+width: 440px;
+position: absolute;
+top: 50%;
+margin-left: 44%;
+transform: translate(-50%,-50%);
+z-index: 9;
+
+    
+}
+
+#video>video{
+    height: 460px;
+    width: 600px;
+
+
+}
+#main>h1{
+    position:absolute ;
+   font-size: 110px;
+   font-weight: 390;
+   z-index:99;
+    left:53%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family:Montserrat;
+
+}
+#nav{
+    display: flex;
+    /* justify-content: space-between; */
+    width:100%;
+    top: 3%;
+    position:relative;
+    /* background:red; */
+    z-index: 999;
+
+    
+}
+#nav>h4{
+    font-weight:600;
+    position:absolute;
+    top: 3%;
+    font-size:20px;
+    left: 2%;
+    font-family: voyage;
+}
+#nav>button{
+ margin-left:92%;
+ color: black;
+ border:none;
+ padding:8px 13px;
+ border-radius:15px;
+ 
+ background: rgba(0, 0, 0, 0.327);
+}
+
+
+#video>h2{
+  text-transform: capitalize;
+  font-size:20px;
+  font-weight:400;
+  margin-top:16%;
+  margin-left: 49%;
+
+  position: absolute;
+  
+  
+
+}
+#video>i{
+    margin-top:49px;
+    position:absolute;
+    margin-left:71%;
+    font-size: 22px;
+    
+    
+    
+
+ animation-name: anime;
+ animation-timing-function: linear;
+ animation-fill-mode:both;
+ animation-iteration-count: infinite;
+ animation-duration:1s;
+}
+@keyframes anime {
+  0%{
+    /* scale: 1.5; */
+    margin: bottom 48px;
+  }   
+  50%{
+    margin-top:40px;
+  }
+  100%{
+    margin-top:48px ;
+  } 
+}
+#main>p{
+    border-radius: 15px;
+    
+    background:rgba(0, 0, 0, 0.232);
+    text-align: center;
+    font-weight:400;
+    top: 70%;
+    margin-left:3%;
+    position: relative;
+    width:300px;
+    padding: 15px 15px;
+    text-align: justify;
+    
+}
+
